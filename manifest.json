@@ -1,0 +1,17 @@
+{
+  "name": "CopyPaste",
+  "description": "Copy-paste proof of concept",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://metalab.co/*"
+      ],
+      "js": ["copyPaste.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "CopyPaste"
+  },
+  "manifest_version": 2
+}
